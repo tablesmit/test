@@ -1,11 +1,11 @@
-function myFunction(e) {
+function ShowMousePostion(e) {
     var x = e.clientX;
     var y = e.clientY;
     var coor = x + "," + y;
-    document.getElementById("demo").innerHTML = coor;
+    document.getElementById("MousePostion").innerHTML = coor;
 
 }
 
-function clearCoor() {
-    document.getElementById("demo").innerHTML = "";
+function clearMousePostion() {
+    document.getElementById("MousePostion").innerHTML = "";
 }
